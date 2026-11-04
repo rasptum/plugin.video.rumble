@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+  <section id="plugin.video.rumble">
+    <category id="general" label="General">
+      <group id="notifications" label="Notifications">
+        <setting id="enable_notifications" type="boolean" label="Show notification when channel goes live">
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="check_interval" type="integer" label="Notification check interval (seconds)">
+          <default>60</default>
+          <constraints>
+            <minimum>30</minimum>
+            <maximum>600</maximum>
+            <step>30</step>
+          </constraints>
+          <control type="slider">
+            <popup>true</popup>
+          </control>
+        </setting>
+      </group>
+      <group id="playback" label="Playback">
+        <setting id="preferred_quality" type="string" label="Preferred video quality">
+          <default>Best</default>
+          <constraints>
+            <options>
+              <option>Best</option>
+              <option>1080p</option>
+              <option>720p</option>
+              <option>480p</option>
+            </options>
+          </constraints>
+          <control type="list">
+            <format>string</format>
+          </control>
+        </setting>
+        <setting id="use_inputstream" type="boolean" label="Enable InputStream Adaptive for HLS">
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

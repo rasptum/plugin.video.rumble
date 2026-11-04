@@ -1,0 +1,33 @@
+# Rumble Live language file
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_GB\n"
+
+msgctxt "#30000"
+msgid "Rumble Live & Channels"
+msgstr "Rumble Live & Channels"
+
+msgctxt "#30001"
+msgid "Add Channel"
+msgstr "Add Channel"
+
+msgctxt "#30002"
+msgid "Enter Rumble channel slug or URL:"
+msgstr "Enter Rumble channel slug or URL:"
+
+msgctxt "#30003"
+msgid "Remove Channel"
+msgstr "Remove Channel"
+
+msgctxt "#30004"
+msgid "Channel not found on Rumble."
+msgstr "Channel not found on Rumble."
+
+msgctxt "#30005"
+msgid "Recent Videos"
+msgstr "Recent Videos"
+
+msgctxt "#30006"
+msgid "Channel is currently offline."
+msgstr "Channel is currently offline."

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.rumble" name="Rumble Live" version="1.0.0" provider-name="Community">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Watch Rumble live streams and channel videos in Kodi</summary>
+    <description lang="en_GB">Stream Rumble live channels and browse recent videos directly in Kodi. Features live status tracking, customizable channel lists, pure-Python stream extraction, and background go-live notifications.</description>
+    <disclaimer lang="en_GB">Unofficial community addon. Not affiliated with or endorsed by Rumble.</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
